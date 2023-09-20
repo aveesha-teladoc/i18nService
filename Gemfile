@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'teladoc_cms', path: '/Users/aveesha.sharma/git/teladoc_cms' #git: 'git@github.com:Teladoc/teladoc_cms.git', branch: 'CMSMW-617'
+# gem 'teladoc_cms', path: '/Users/aveesha.sharma/git/teladoc_cms' #git: 'git@github.com:Teladoc/teladoc_cms.git', branch: 'CMSMW-617'
+
+# gem 'teladoc_cms', git: 'git@github.com:Teladoc/teladoc_cms.git', branch: 'CMSMW-673'
 
 ruby '2.7.6'
 
