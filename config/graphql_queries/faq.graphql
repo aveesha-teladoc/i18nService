@@ -1,0 +1,19 @@
+category
+categoryDisplayName
+applicationName
+brand
+region
+locale
+_path
+faqs {
+  question
+  answer {
+    html
+  }
+  _metadata {
+    stringMetadata {
+      name,
+      value
+    }
+  }
+}
