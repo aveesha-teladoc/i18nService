@@ -1,0 +1,26 @@
+topic
+service
+events
+id
+locale
+duration
+tagline
+image {
+  ... on ImageRef {
+    _path
+  }
+}
+mediaFragment  {
+  ... on Video {
+    type
+    hostName
+    videoId
+    transcript
+    accessibilityDescription
+  }
+  ... on Image {
+    type
+    url
+    accessibilityDescription
+  }
+}
